@@ -1,6 +1,6 @@
 # validar-cedula-ecuatoriana
 
-´´´console
+```javascript
 function validarCedula(cedula) {
    // Verificar que la cédula tenga 10 dígitos
   if (cedula.length !== 10) {
@@ -36,4 +36,4 @@ function validarCedula(cedula) {
   return verificador === verificadorEsperado;
 }
 
-´´´
+```
